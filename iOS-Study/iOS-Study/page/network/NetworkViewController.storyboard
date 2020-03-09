@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Network View Controller-->
+        <scene sceneID="xQX-TC-v0S">
+            <objects>
+                <viewController storyboardIdentifier="network" id="pv9-1c-2t1" customClass="NetworkViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FsN-mg-Nc5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bgz-z2-ZXn">
+                                <rect key="frame" x="15" y="44" width="384" height="89"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WEy-AM-TqN">
+                                <rect key="frame" x="15" y="141" width="384" height="678"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="WEy-AM-TqN" firstAttribute="top" secondItem="bgz-z2-ZXn" secondAttribute="bottom" constant="120" id="6Md-Gm-Rsa"/>
+                            <constraint firstItem="bgz-z2-ZXn" firstAttribute="leading" secondItem="RVh-om-ODN" secondAttribute="leading" constant="15" id="B2S-My-Al1"/>
+                            <constraint firstItem="WEy-AM-TqN" firstAttribute="trailing" secondItem="RVh-om-ODN" secondAttribute="trailing" constant="15" id="I0C-Cm-I8u"/>
+                            <constraint firstItem="WEy-AM-TqN" firstAttribute="leading" secondItem="RVh-om-ODN" secondAttribute="leading" constant="15" id="TAS-9J-zxy"/>
+                            <constraint firstItem="RVh-om-ODN" firstAttribute="trailing" secondItem="bgz-z2-ZXn" secondAttribute="trailing" constant="15" id="gzQ-ei-pDi"/>
+                            <constraint firstItem="bgz-z2-ZXn" firstAttribute="top" secondItem="RVh-om-ODN" secondAttribute="top" constant="50" id="mPs-tk-HnP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RVh-om-ODN"/>
+                    </view>
+                    <connections>
+                        <outlet property="bdImage" destination="bgz-z2-ZXn" id="QTM-R1-SFl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EAc-b2-cqA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-207.24637681159422" y="45.535714285714285"/>
+        </scene>
+    </scenes>
+</document>
