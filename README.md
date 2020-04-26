@@ -2,7 +2,7 @@
 
 ObjC/iOS 学习笔记
 
-![markdown](1.jpg "ios") |
-![markdown](2.jpg "ios") |
-![markdown](3.jpg "ios") |
-![markdown](4.jpg "ios") |
+![markdown](https://github.com/ueumd/iOS/blob/master/1.jpg "ios") |
+![markdown](https://github.com/ueumd/iOS/blob/master/2.jpg "ios") |
+![markdown](https://github.com/ueumd/iOS/blob/master/3.jpg "ios") |
+![markdown](https://github.com/ueumd/iOS/blob/master/4.jpg "ios") |
